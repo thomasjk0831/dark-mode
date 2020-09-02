@@ -14,7 +14,6 @@ const Navbar = (props) => {
   return (
        <nav className="navbar">
       <h1>Crypto Tracker</h1>
-  <h2>{darkMode?<div>true</div>:<div>false</div>}</h2>
       <div className="dark-mode__toggle">
         <div
           onClick={toggleMode}
